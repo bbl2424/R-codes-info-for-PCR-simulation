@@ -1,3 +1,5 @@
+#In order to run the analysis on the dataset using the 'vQTL' R package, the data must be class cross. This is the Python Code for reconfiguring dataset to be class cross.
+
 import csv
 from itertools import izip
 
