@@ -1,0 +1,16 @@
+
+markername:  ID tag for that row, this is the ID that can be used to find additional information, should be kept in all output data sets.	
+
+incre_new:  distance along all chromosomes starting from chromosome 1, in units of centiMorgans
+
+Coordinate_Value:  position along the chromosome from genetic map, units of centiMorgans, re-starts at 1 for each chromosome.
+
+Primary_Bin:  subset of chromosome, varying numbers within each chromosome, format is chromosome.bin_section
+
+Chromosome:  goes from 1 to 10
+
+MO001:  these are the primary key aka line IDs that connect this genotype file to the phenotype files.  Note that there are zeros before the numbers and after the M (this is left from old database identifier formats).  Each column has an A for the B73 allele at that marker, or a B for the Mo17 allele at that marker, or a hyphen for missing data.
+.
+.
+.
+MO384

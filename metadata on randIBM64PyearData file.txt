@@ -1,0 +1,5 @@
+rand_ranks:  the random number used to plant (genotypes are in random order when sorted by this value)
+Line:  genotype identifier, matches genotype file line identifier	
+height(in):  this is the first column of phenotype (y) values
+NumTasselBranches:  this is the second phenotype column	
+TasselBranchAngle(deg):  this is a third phenotype

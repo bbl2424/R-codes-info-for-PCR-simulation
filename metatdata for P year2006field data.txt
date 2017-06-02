@@ -1,0 +1,11 @@
+Year2006:  identifier, not needed for analysis
+	
+Family Number:  this is the group number, with one group per line.	
+
+Line:  	this is the Line ID that matches the genotype file.  Note that there are extra non-matching rows in this file that can be ignored.
+
+PlantHeight(in):  this is the first phenotype (y value, response)
+
+tasselbranchNum:  this is the second phenotype value column
+
+tasselbranchAngle_degrees:  this is the third phenotype value column
