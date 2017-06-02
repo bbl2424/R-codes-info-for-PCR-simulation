@@ -1,4 +1,12 @@
-#In order to run the analysis on the dataset using the 'vQTL' R package, the data must be class cross. This is the Python Code for reconfiguring dataset to be class cross.
+# The R package vQTL entails data to be of class cross, requiring the dataset from a csv file to be in a specific format.
+
+#The Family.csv file is the dataset for which plants with the same genotypes were planted next to each other in families. 
+#The Random.csv file is the dataset for which plants were planted in a random order. 
+
+#Both files are formatted as follows:
+#The first row contains the phenotype names followed by the marker names.
+#The next row contains blank cells under the phenotype columns, followed by chromosome identifiers.
+#The third (optional) row contains blank cells under the phenotype columns, followed by marker positions in centimorgans (cMs).
 
 import csv
 from itertools import izip
