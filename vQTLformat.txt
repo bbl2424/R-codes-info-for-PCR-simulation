@@ -6,3 +6,5 @@ Both files are formatted as follows:
 The first row contains the phenotype names followed by the marker names.
 The next row contains blank cells under the phenotype columns, followed by chromosome identifiers.
 The third (optional) row contains blank cells under the phenotype columns, followed by marker positions in centimorgans (cMs).
+
+edit
